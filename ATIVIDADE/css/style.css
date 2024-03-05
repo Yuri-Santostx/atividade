@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(232, 230, 230);
+}
+.projetos_de_front{
+    font-size: 30px;
+}
+p{
+    color: rgb(0, 255, 8);
+    font-weight: bold;
+    font-size: 25px;
+}
+.font{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.font img{
+    width: 250px;
+}
+.link_projetos ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.link_projetos a img{
+    width: 100px;
+}
+.link_projetos ul{
+    list-style: none;
+}
+.link_projetos li:hover{
+    scale: 120%;
+    box-shadow: 0 0 10px gray;
+}
